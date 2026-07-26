@@ -1,0 +1,12 @@
+name: mber
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - openmm>=8.4.0
+  - pdbfixer>=1.12
+  - anarci
+  - ffmpeg
